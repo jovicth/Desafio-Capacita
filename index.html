@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Aventuras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Minhas Aventuras</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#aventuras">Aventuras</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um viajante bem aleatório, desejo explorar o universo e compartilhar minhas aventuras com vocês.</p>
+        </div>
+    </section>
+
+    <section id="aventuras" class="section">
+        <div class="container">
+            <div class="aventuras-grid">
+                <div class="aventura-item">
+                    <img src="https://imgs.search.brave.com/zuAosBZtvhDQ8opj1JSYcTWskbD_9KyYBPgBjGMfToQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtZ3JhdGlz/L3BhcGVsLWRlLXBh/cmVkZS1jb25jZWl0/by1hc3RyYWxfMjMt/MjE1MDAzODg3MC5q/cGc_c2VtdD1haXNf/aHlicmlk" alt="Imagem do planeta marte, vista de uma montanha.">
+                    <h3 style="color: #021449df">Marte</h3>
+                    <p>Trilhas e dunas para andar de Buggy.</p>
+                </div>
+                <div class="aventura-item">
+                    <img src="https://imgs.search.brave.com/IHIeEgiDVJ7QWGN-J250zXvIolNbtXgabxJ-zBWkqjE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jYXRy/YWNhbGl2cmUuY29t/LmJyL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIwLzA5L2RpYS1k/by1ob2JiaXQtY29u/aGVjYS1sb2NhY29l/cy1lLXBhaXNhZ2Vu/cy1uYS1ub3ZhLXpl/bGFuZGlhLmpwZWc" alt="imagem de Pyongyang, capital da Coreia do Norte. Apresenta vários prédios coloridos, cidade urbanizada.">
+                    <h3 style="color: #021449df">Nova Zelândia</h3>
+                    <p>Locais de gravação do Condado dos Hobbit.</p>
+                </div>
+                <div class="aventura-item">
+                    <img src="data:image/jpeg;base64,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" alt="imagem de Ouro Preto, distrito de MG. Apresenta várias casas e montanhas ao fundo.">
+                    <h3 style="color: #021449df">Setealém</h3>
+                    <p>Cidade misteriosa, uma lenda pra alguns, e uma verdade pra outros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <p>Deseja entrar em contato? Por favor, preencha o formulário abaixo</p>
+        <form action="https://formsubmit.co/inserirSeuEmail@email.com" method="POST">
+            <input type="text" name="Nome" placeholder="Seu nome/Código da sua alma" required>
+            <input type="email" name="Email" placeholder="Seu email/Pombo Correio ou Corvo" required>
+            <textarea name="Mensagem" rows="4" placeholder="Sua mensagem/Últimas palavras"></textarea>
+            <button type="submit" class="btn">Tentar a sorte</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FSN4 - Minhas Aventuras. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
